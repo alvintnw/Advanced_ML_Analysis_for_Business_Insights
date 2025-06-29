@@ -38,4 +38,20 @@ This project is developed using the rich Python ecosystem for Data Science and M
 * **MLOps Management (optional):** `MLflow`
 * **Development Environment:** Google Colab (.ipynb notebooks)
 
-## Project Structure
+## How to Run This Project
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/](https://github.com/)[YourUsername]/[YourRepositoryName].git
+    cd [YourRepositoryName]
+    ```
+2.  **Set Up Environment (Google Colab Recommended):**
+    * Open Google Colab: `https://colab.research.google.com/`
+    * Choose `File` -> `Upload notebook` -> `GitHub`, then enter your repository URL or search for the `.ipynb` file directly.
+    * Alternatively: `File` -> `Upload notebook` and upload the `advanced_ml_analysis_for_business_insights.ipynb` file from your local machine.
+3.  **Install Dependencies:**
+    * In the first cell of the Colab notebook, ensure all necessary libraries are installed (the `!pip install ...` lines are already in the notebook).
+4.  **Prepare Data:**
+    * Replace the data loading placeholders in the notebook (`data/raw/your_data.csv`) with the path to your actual dataset. If data is in Google Drive, use `google.colab.drive.mount()`.
+5.  **Run the Notebook:**
+    * Execute the cells in the notebook sequentially.
